@@ -1,0 +1,9 @@
+<Alloy>
+	<Window platform="ios" class="container" onOpen="showIndicator">
+		<View id="ActivityView" >
+			<ActivityIndicator id="activityIndicator"></ActivityIndicator>
+			<Label id="loadingLabel" ></Label>
+		</View>
+	</Window>
+	<ProgressIndicator id="activityIndicatorAnd" ns="Ti.UI.Android" platform="android" ></ProgressIndicator>
+</Alloy>

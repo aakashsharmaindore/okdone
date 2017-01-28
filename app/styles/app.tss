@@ -24,3 +24,32 @@ overrode the settings with other TSS, XML, or JS settings:
 }
 
 */
+
+'.windowCL[platform=android]':{
+	backButtonTitle: "",
+	theme: "Theme.AppCompat.Translucent.NoTitleBar",
+	backgroundColor : "#ffff"
+}
+
+"TextField[platform=android]":{
+	font:{
+		fontSize: 16,
+		fontFamily: "NeueHaasUnicaW1G-Thin"
+	},
+	color: "#000000",
+	hintTextColor: "#C3C3C3",
+	borderStyle: Titanium.UI.INPUT_BORDERSTYLE_NONE,
+	backgroundColor: "transparent"
+}
+
+'.MedButton':{
+	font:{
+		fontSize: 17,
+		fontWeight: "bold"
+	},
+	backgroundColor: "#e81b21",
+	color: "#fff",
+	width: "85%",
+	height: "40dp",
+	borderRadius: "5dp"
+}

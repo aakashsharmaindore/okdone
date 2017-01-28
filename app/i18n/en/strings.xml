@@ -1,0 +1,462 @@
+<resources>
+	<!-- <string name="welcome_message">Welcome to Laddercompetition</string>-->
+
+	<string name="app_name">Gift Me</string>
+	<string name="internet_connection_Text">Please check your internet connection.</string>
+	<string name="pay_Fail_Msg">Payment cancelled.</string>
+	<string name="Payment">Payment</string>
+	<string name="ShareSocial">Share</string>
+
+	<!-- Login Screen -->
+	<string name="do_you_have_existing_account">Do you have existing account?</string>
+	<string name="firstName">First Name</string>
+	<string name="lastName">Last Name</string>
+	<string name="emailID">Email</string>
+	<string name="password">Password</string>
+	<string name="confirm_password">Confirm Password</string>
+	<string name="forgot_btn">Forgot?</string>
+	<string name="signin">Sign In</string>
+	<string name="or_lbl">or</string>
+	<string name="signup">Sign Up</string>
+	<string name="facebook_connect">Facebook Connect</string>
+	<string name="Please_enter_first_name">Please enter first name</string>
+	<string name="Please_enter_last_name">Please enter last name</string>
+	<string name="Please_enter_emailid">Please enter emailId</string>
+	<string name="Please_enter_valid_email">Please enter valid email</string>
+	<string name="Please_confirm_password">Please confirm password</string>
+	<string name="Please_enter_password">Please enter password</string>
+	<string name="logout_msg">Are you sure you want to logout?</string>
+	
+	
+	<!-- forgot password Screen -->
+	<string name="forgot_Message">Enter your registered email id, you will receive an email with a password reset link.</string>
+	<string name="submit_Btn">Submit</string>
+	<string name="send_Message">We have sent a link to your email address. Click on the link to create a new password.</string>
+
+	<!-- Signup Screen -->
+	<string name="title_win">Sign Up</string>
+	<string name="first_name_txt">First Name</string>
+	<string name="last_name_txt">Last Name</string>
+	<string name="email_txt">Email</string>
+	<string name="pwd_txt">Password</string>
+	<string name="confirm_pwd_txt">Confirm Password</string>
+	<string name="dob_txt">Birth Date</string>
+	<string name="male_Text">Male</string>
+	<string name="female_Text">Female</string>
+	<string name="both_btn">Both</string>
+	<string name="choose_sports_txt">Choose Sports</string>
+	<string name="Sign_Up_Btn">Sign Up</string>
+	<string name="cancel_Button_Text">Cancel</string>
+	
+	<!-- left menu Screen -->
+	<string name="leftMenu_title1">My Challenges</string>
+	<string name="leftMenu_title2">My Competitions</string>
+	<string name="leftMenu_title3">Find Competition</string>
+	<string name="leftMenu_title4">Create Competition</string>
+	<string name="leftMenu_title5">Notifications</string>
+	<string name="leftMenu_title6">Settings</string>
+	<string name="leftMenu_title7">Logout</string>
+
+	<!-- home Screen -->
+	<string name="home_Header_Title">Let's Play</string>
+	<string name="findCopm_btn">Find a competition</string>
+	<string name="createCopm_btn">Create a competition</string>
+	<string name="no_Comp_Msg">No competition found related to user.</string>
+	<string name="no_Comp_Msg1">No competitions available</string>
+
+	<!-- setting Screen -->
+	<string name="setting_Header_Title">Settings</string>
+	<string name="setting_Table_Header_Title1">NOTIFICATION SETTINGS</string>
+	<string name="setting_Table_Header_Title2">GAME SETTINGS</string>
+	<string name="setting_Table_Header_Title3">OTHERS</string>
+	<string name="setting_Table_Header_Title1_Row2">Challenge Request</string>
+	<string name="setting_Table_Header_Title1_Row3">Time Change Request</string>
+	<string name="setting_Table_Header_Title1_Row4">Position Change</string>
+	<string name="setting_Table_Header_Title2_Row1">Select Sport</string>
+	<string name="setting_Table_Header_Title2_Row2">Set Availabilty</string>
+	<string name="setting_Table_Header_Title2_Row3">Set Club Id</string>
+	<string name="setting_Table_Header_Title2_Row4">Set Rating</string>
+	<string name="setting_Table_Header_Title3_Row1">Select Language</string>
+	<string name="setting_Table_Header_Title3_Row2">Profile Settings</string>
+	<string name="setting_Table_Header_Title3_Row3">Invite Friends</string>
+	<string name="setting_Table_Header_Title3_Row4">Help</string>
+	
+	<!-- invite Screen -->
+	<string name="invite_Screen_Header">Invite Friends</string>
+	<string name="invite_Top_Lbl">Get others to join!</string>
+	<string name="social_Share_Msg">Lets play the Ladder Competition! Get the App</string>
+	<string name="waring_Msg">warning</string>
+    <string name="waring_Msg_Text">the required feature is not available on your device</string>
+    <string name="complte_Activity_Msg">complete</string>
+    <string name="result_Msg">Result</string>
+    <string name="share_Msg">Shared Successfully.</string>
+    <string name="email_Not_Sent_Msg">Message could not be sent.</string>
+    
+    
+	<!-- Help Screen -->
+	<string name="find_Screen_Header">Find Competition</string>
+	<string name="find_Screen_Header_Text">Lorem ipsum dolor sit amet, no ius unum iriure commune. Ne est dolorum alienum argumentum. Duo et clita sensibus iudicabit, pro diam malis ut. Eu dicit graecis voluptatum duo. Ius alii inermis intellegat ad.</string>
+	<string name="join_Screen_Header">Join Competition</string>
+	<string name="scoreUpdate_Screen_Header">Enter Score</string>
+	<string name="viewLadder_Screen_Header">My Competition</string>
+	<string name="challengePlayer_Screen_Header">Challenge Player</string>
+	<string name="skipBtn">Skip</string>
+	<string name="winnerText">You have won the match by</string>
+	<string name="losserText">You have lost the match by</string>
+	<string name="lostText1">Sorry You Lost</string>
+	<string name="winText">Won</string>
+	<string name="lostText">Lost</string>
+	<string name="congText">Congratulations...!!!</string>
+	
+	<!-- profile Screen -->
+	<string name="profile_Header_Title">Profile</string>
+	<string name="table_Header_Title1">PERSONAL INFORMATION</string>
+	<string name="table_Header_Title2">CONTACT INFORMATION</string>
+	<string name="change_pass_txt">Change Password</string>
+	<string name="address_txt">Home Address</string>
+	<string name="city_txt">City</string>
+	<string name="country_txt">Select Country</string>
+	<string name="number_txt">Phone Number</string>
+	<string name="success_Msg_Profile">Profile updated successfully.</string>
+	<string name="choose_Photo_Text">Choose Photo</string>
+	<string name="Gallery_Text">Gallery</string>
+	<string name="Camera_Text">Camera</string>
+	<string name="test_on_device_Msg">Please run this test on device</string>
+	<string name="error_Msg_Camera">Unexpected error: </string>
+	
+	<!-- change password Screen -->
+	<string name="old_Pass_Title">Current Password</string>
+	<string name="new_Pass_Title">New Password</string>
+	<string name="cnfrm_Pass_Title">Confirm New Password</string>
+	<string name="top_Title">SET YOUR NEW PASSWORD</string>
+	<string name="success_msg_Title">Your password is updated, please login again.</string>
+	
+	<!-- sports list Screen -->
+	<string name="sports_Screen_Header_Title">Select Sport</string>
+	
+	<!-- Set Availability Screen -->
+	<string name="set_Availability_Header_Title">Set Availability</string>
+	<string name="set_Availability_Msg">Availability set successfully.</string>
+
+	<!-- Set Languages Screen -->
+	<string name="set_Languages_Header_Title">Set Language</string>
+
+	<!-- Set Club Id popup -->
+	<string name="set_clubId">Set Club Id for</string>
+	<string name="enter_clubId">Enter Club Id</string>
+
+	<!-- Set Rating popup -->
+	<string name="set_rating">Set your Rating for</string>
+	<string name="single">Single</string>
+	<string name="double1">Double</string>
+
+	<!-- My Competitions Screen -->
+	<string name="myComp_Header_Title">My Competitions</string>
+	<string name="No_players_have_joined_this_competition_yet">No players have joined this competition yet</string>
+	<string name="Engaged">Engaged</string>
+	<string name="show_Ladder_View">Show Ladder View</string>
+	<string name="show_Level_Indicator">Show Level Indicator</string>
+	<string name="show_Player_Name_Only">Show Player Name Only</string>
+	<string name="show_Profile_Pic_Only">Show Profile Pic Only</string>
+	<string name="show_Pyramid_View">Show Pyramid View</string>
+	<string name="show_Level_Indicator">Show Level Indicator</string>
+	<string name="hide_Level_Indicator">Hide Level Indicator</string>
+	<string name="show_Both">Show Both</string>
+	<string name="level">Level</string>
+
+	<!-- My Challenges Screen -->
+	<string name="My_Upcoming_Challenges">Upcoming</string>
+	<string name="My_Pending_Challenges">Pending</string>
+	<string name="My_History_Challenges">History</string>
+	<string name="update_Score">Update Score</string>
+	<string name="withdraw_Request">Withdraw Request</string>
+	<string name="pending_Msg_Part_One">Waiting for</string>
+	<string name="pending_Msg_Part_Two">to accept your challenge for</string>
+	<string name="No_Record_Lbl">No Records</string>
+	<string name="Vs_Lbl">Vs</string>
+	
+	
+	<!-- challenge player Screen -->
+	<string name="date_Match_Lbl">Select match date</string>
+	<string name="comments_Lbl">Comments</string>
+	<string name="alert_for_Date">Please select a date to play your match.</string>
+	<string name="alert_for_Challenge_Messgae">Please enter a message for your opponent.</string>
+	<string name="dateTime_alert">Please select a time between 8:00 AM to 10:00 PM.</string>
+
+	<!-- View Player Screen -->
+	<string name="level_title">Level</string>
+	<string name="age_title">Age</string>
+	<string name="challenge">Challenge</string>
+	<string name="challenges">Challenged</string>
+	<string name="challenge_in">in</string>
+	<string name="challenged_by">Challenged\nBy</string>
+	<string name="won_by">Won By</string>
+	<string name="lost_to">Lost By</string>
+	<string name="You_can_only_challenge_a_player_at_level">You can only challenge a player at level</string>
+	<string name="Join_this_competition_before_challenging_any_player">Join this competition before challenging any player</string>
+	<string name="As_you_are_on_top_position_wait_for_others_to_challenge_you">As you are on top position, wait for others to challenge you</string>
+	<string name="Player_already_engaged_in_a_challenge_match">Player(s) already engaged in a challenge match</string>
+	<string name="You_are_already_engaged_in_a_challenge_match">You are already engaged in a challenge match</string>
+
+	<!-- find competition Screen -->
+	<string name="findComp_Header_Title">Find Competition</string>
+	<string name="findComp_Top_Label">Select any one of the search options below</string>
+	<string name="findComp_Table_Header_Title1">ORGANIZER'S CODE</string>
+	<string name="findComp_Table_Header_Title2">ZIP CODE</string>
+	<string name="findComp_Table_Header_Title3">USE MY LOCATION</string>
+	<string name="findComp_Table_Header_Title4">CLUB ID</string>
+	<string name="findComp_Lbl_Title1">Enter your organizer code</string>
+	<string name="findComp_Lbl_Title2">Enter your zip code</string>
+	<string name="findComp_Lbl_Title3">Enter your location</string>
+	<string name="findComp_Lbl_Title4">Enter your club id</string>
+	<string name="search_btn">Search</string>
+
+	<!-- find competition detail Screen -->
+	<string name="findCompDetail_Header_Title">Competitions</string>
+
+	<!--competition detail Screen -->
+	<string name="find_Button_Title">Join</string>
+	<string name="already_Joined_Title">Joined</string>
+	<string name="start_Date_Title">When</string>
+	<string name="end_Date_Title">End date</string>
+	<string name="place_Title">Where</string>
+	<string name="gender_Title">Whom</string>
+	<string name="level_Type_Title">Level</string>
+	<string name="owner_Title">Owner</string>
+	<string name="admin_Title">Admin</string>
+	<string name="age_Title">Age Group</string>
+	<string name="comp_Type_Title">Type</string>
+	<string name="comp_Sport_Title">Sport Name</string>
+	<string name="fee_Title">Fee</string>
+	<string name="rule_Title">Rules</string>
+	<string name="prize_Title">Prize Info</string>
+	<string name="join_Comp_Msg">Competition joined.</string>
+	<string name="alert_DialogPartner_Message">This competition requires a partner. Do you already have a partner?</string>
+	<string name="alert_DialogPartner2_Message">If you wish, you can join the waiting list. But you will be able to join the game only when someone choose you as a partner. There will be no refund if you cannot join. Do you agree?</string>
+    <string name="mail_Msg_AdminOwner">Regarding Competition</string>
+
+	<!--partner list screen -->
+	<string name="partner_List_Header_Title">Select Partner</string>
+	<string name="wait_Btn">Wait</string>
+	<string name="no_list_Msg">No one has joined the waiting list yet. Please click on Wait button to join waiting list. Other users can see you while joining the competition and might choose you as their partner.</string>
+
+	<!-- create Competition -->
+	<string name="create_Competition_Title">Create Competition</string>
+	<string name="edit_Competition_Title">Edit Competition</string>
+	<string name="standard_comp_btn">standard-button.png</string>
+	<string name="prepaid_comp_btn">prepaid-button.png</string>
+
+	<!-- create Competition form-->
+	<string name="compitition_name">Competition Name</string>
+	<string name="slect_age">Select Age Group</string>
+	<string name="start_date">Start Date</string>
+	<string name="end_date">End Date</string>
+	<string name="lst_signup_date">Last Signup Date</string>
+	<string name="address">Address</string>
+	<string name="select_type">Select Type(Single/Double)</string>
+	<string name="venueid">Club Id</string>
+	<string name="rules">Rules</string>
+	<string name="setnPrize">Set\nPrize</string>
+	<string name="setnRule">Set\nRules</string>
+	<string name="setnLogo">Set\nLogo</string>
+	<string name="zipcode">Zip code</string>
+	<string name="noOfDays">Match must be played within (No. of days)</string>
+	<string name="male_btn">Males</string>
+	<string name="female_btn">Females</string>
+	<string name="both">Males & Females</string>
+	<string name="and_both">Males and Females</string>
+	<string name="msg_validation">Maximum age should be greater than Minimum age</string>
+	<string name="organizers_code">Organizer's Code</string>
+	<string name="Venue_Address">Address/Location</string>
+	<string name="alert_Msg_logoOne">Please select first logo.</string>
+	<string name="alert_Msg_logoTwo">Please select second logo.</string>
+	<string name="alert_Msg_logoTextOne">Please enter url for first logo.</string>
+	<string name="alert_Msg_logoTextTwo">Please enter url for second logo.</string>
+	<string name="picker_note">You cannot change this once competition is created.</string>
+	<string name="validation_Logo_Msg">Both logo's are mandatory.</string>
+	<string name="validation_Msg_ProfileImage">Please set your profile picture.</string>
+	<string name="validation_Msg_walk_over">Please enter (no. of days).</string>
+	<string name="set_Lbl">Set</string>
+	<string name="prize">Prize</string>
+	<string name="logo">Logo</string>
+	<string name="lbl_Max">Max</string>
+	<string name="lbl_Min">Min</string>
+	<string name="lbl_Years"> Years</string>
+
+	<!-- set prize-->
+	<string name="prizeMsg">Set pictures for prize (max 3)</string>
+	<string name="logoMsg">Set pictures for sponsors (max 2)</string>
+	<string name="done">Done</string>
+	<string name="edit">Edit</string>
+	<string name="webLink">Enter Any Web Link</string>
+	<string name="Enter_URL">Enter URL</string>
+	<string name="Enter_Description">Enter Description</string>
+	<string name="No_PrizeInfo">No prize information available.</string>
+
+
+	<!-- user profile Screen -->
+	<string name="age_txt">Age</string>
+	<string name="gender_txt">Gender</string>
+	<string name="table_Header_User_Profile_Title3">GAME INFORMATION</string>
+	<string name="selected_Sport">Selected Sport</string>
+	<string name="lvl_txt">Level</string>
+	<string name="availability_txt">Availability</string>
+	<string name="make_call">Do you want to make a call?</string>
+	<string name="mail_Text">Mail for challenge</string>
+
+	<!-- change password Screen -->
+	<string name="change_password_Header_Title">Change Password</string>
+	<string name="submit_Btn_Title">Submit</string>
+	<string name="old_Pass_Title">Current Password</string>
+	<string name="new_Pass_Title">New Password</string>
+	<string name="cnfrm_Pass_Title">Confirm New Password</string>
+	<string name="top_Title">SET YOUR NEW PASSWORD</string>
+	<string name="success_msg_Title">Your password is updated, please login again.</string>
+
+	<!-- forgot password Screen -->
+	<string name="forgot_Message">Enter your registered email id, you will receive an email with a password reset link.</string>
+	<string name="submit_Btn">Submit</string>
+	<string name="send_Message">We have sent a link to your email address. Click on the link to create a new password.</string>
+
+	<!-- Set Availability Screen -->
+	<string name="set_Availability_Header_Title">Set Availability</string>
+	<string name="set_Availability_Msg">Availability set successfully.</string>
+
+	<!-- Set Languages Screen -->
+	<string name="set_Languages_Header_Title">Set Language</string>
+
+	<!-- Set Club Id popup -->
+	<string name="set_clubId">Set Club Id for</string>
+	<string name="enter_clubId">Enter Club Id</string>
+
+	<!-- Set Rating popup -->
+	<string name="set_rating">Set your Rating for</string>
+	<string name="single">Single</string>
+	<!-- <string name="double">Double</string> -->
+
+	<!-- my challenges Screen -->
+	<string name="tableChallenge_Header_Title1">SCHEDULED CHALLENGES</string>
+	<string name="tableChallenge_Header_Title2">HISTORY</string>
+
+	<!-- Notification Screen -->
+	<string name="notification_title">Notifications</string>
+	<string name="challenging_you">Challenging you for a match in</string>
+	<string name="accept_btn">Accept</string>
+	<string name="decline_btn">Decline</string>
+	<string name="anotherTime_btn">Not Available ?</string>
+	<string name="accept_msg1">Get Ready for a</string>
+	<string name="accept_msg2">match with</string>
+	<string name="anotherTime_msg">Accepted your challenge but wants to play on a different time</string>
+	<string name="decline_msg">Declined your challenge for</string>
+	<string name="position_update_msg">Moved a level up from current position in</string>
+	<string name="another_time_note">Suggest different Time</string>
+	<string name="another_time_notification_Msg">You have suggested another time to challenger</string>
+	<string name="challenge_accpet_time_notification_Msg">You have accepted the challenge</string>
+	<string name="challenge_decline_time_notification_Msg">You have declined the challenge</string>
+	<string name="another_accpet_time_notification_Msg">You have accepted time change request</string>
+	<string name="another_decline_time_notification_Msg">You have declined time change request and cancelled this challenge</string>
+
+	<!-- Score Update Screen -->
+	<string name="score_update_title">Enter Score</string>
+	<string name="hint_player1">Player 1 Score</string>
+	<string name="hint_player2">Player 2 Score</string>
+	<string name="hint_team1">Team 1 Score</string>
+	<string name="hint_team2">Team 2 Score</string>
+	<string name="add_set">Add Set</string>
+	<string name="setLbl">Set</string>
+
+	<!--all alert messages-->
+	<string name="username_Message">Please enter username.</string>
+	<string name="valid_Username_Message">Please enter valid username.</string>
+	<string name="passowrd_Message">Please enter password.</string>
+	<string name="passowrd_Length_Message">Password must be 6 character long.</string>
+	<string name="firstName_Enter_Message">Please enter first name.</string>
+	<string name="LastName_Enter_Message">Please enter last name.</string>
+	<string name="email_Enter_Message">Please enter email.</string>
+	<string name="valid_Email_Message">Please enter valid email.</string>
+	<string name="Cnfrm_Enter_Message">Please confirm password.</string>
+	<string name="CnfrmPass_Length_Message">Password must be 6 character long.</string>
+	<string name="CnfrmPass_Pass_Same">Password and confirm password must be same.</string>
+	<string name="birthDate_Selection_Alert">Please select your birth date.</string>
+	<string name="wrong_Pass_AlertMessage">You have entered a wrong password.</string>
+	<string name="current_Pass_AlertMessage">Please enter current password.</string>
+	<string name="new_Pass_AlertMessage">Please enter new password.</string>
+	<string name="new_CnfrmPass_AlertMessage">Please enter confirm new password.</string>
+	<string name="profile_complete_AlertMessage">Please complete your profile first.</string>
+	<string name="Camera_not_supported_on_this_device">Camera not supported on this device.</string>
+	<string name="Something_is_wrong_with_camera">Something is wrong with the camera.</string>
+	<string name="enter_Competition_Name_Msg">Please enter competition name.</string>
+	<string name="age_Group_Msg">Please select age group.</string>
+	<string name="comp_Start_Date_Msg">Please select the start date of this competition.</string>
+	<string name="comp_End_Date_Msg">Please select the end date of this competition.</string>
+	<string name="comp_Signup_Date_Msg">Please enter end date for signing up.</string>
+	<string name="address_Blank_Msg">Please enter address.</string>
+	<string name="zipcode_Blank_Msg">Please enter zipcode.</string>
+	<string name="start_end_grater_Msg">End date of competition can not be before the start date.</string>
+	<string name="singup_end_grater_Msg">Last signup date should be on or before the end date of the competition.</string>
+	<string name="single_double_Msg">Please Select Type(Single/Double).</string>
+	<string name="enter_Rule_Text_Msg">Please enter new rule text.</string>
+	<string name="choose_Sport_Msg">Please select sport.</string>
+	<string name="find_Comp_Search_Text">Please enter search text.</string>
+	<string name="cretae_Comp_Address_Text">Please check the address you've entered, it seems invalid. You can try to enter the full address, including city and country.</string>
+	<string name="Unknown_error_occured">Unknown error occured.</string>
+	<string name="challenge_withdrawn_Msg">Challenge withdrawn successfully.</string>
+	<string name="challenge_Player_Msg">Player challenged successfully.</string>
+	<string name="challenge_Accept_Msg">Challenge accepted successfully.</string>
+	<string name="score_Update_Msg">Score updated successfully.</string>
+	<string name="Please_set_sponsor_logo">Please set sponsor logo.</string>
+
+	<!--all alert dialog button text-->
+	<string name="Cancel">CANCEL</string>
+	<string name="Next">Next</string>
+	<string name="ok">OK</string>
+	<string name="yes">YES</string>
+	<string name="no">NO</string>
+	<string name="Add_a_custom_rule">Add a custom rule</string>
+	<string name="Enter_rule_details">Enter rule details</string>
+	<string name="Add_Default_Rules">Add Default Rules</string>
+	
+	<!-- 12 Rules -->
+	<string name="Rule1">The goal of the laddercompetition is to meet new people, encourage participants to play games and allow them to get more experience and improve their game.</string>
+	<string name="Rule2">The laddercompetition has a pyramid shape. You are allowed to challenge a player on the left of the same level you’re in or someone who is positioned 1 level higher than you are. When you win the match you trade places. If you lose nothing changes. The goal is to end up as high on the pyramid/ladder as possible.</string>
+	<string name="Rule3">The initial positions are defined by first come first serve basis. The winner at the end of the competition is the player who is at the top of the pyramid/ladder.</string>
+	<string name="Rule4">This laddercompetition is for %1$s of age group %2$s.</string>
+	<string name="Rule5">We will play %1$s matches only.</string>
+	<string name="Rule6">The competition starts on %1$s and ends on %2$s.</string>
+	<string name="Rule7">You can join until %1$s. Players will be added to the ladder by the order the subscriptions are received in.</string>
+	<string name="Rule8">You can challenge someone using the App and Website. You can also email or call your challenger. Contactdetails can be found in the App or in the protected area of Laddercompetition.com</string>
+	<string name="Rule9">When you are challenged you need to agree on a date and time. This needs to be done within %1$s days. Else you will lose the match.</string>
+	<string name="Rule10">You are not allowed to challenge the same player immediately again after having played against him, unless that player is on the number 1 position of the ladder.</string>
+	<string name="Rule11">After the match the score must be entered using the App or on laddercompetition.com after which the ladder is updated and published automatically.</string>
+	<string name="Rule12">For questions or additional information please contact the Owner or Admin of the competition.</string>
+
+	<!-- Prize info screen string -->
+	<string name="prize_Info_Header_Title">Prize Information</string>
+	<string name="prize_Lbl">Prize for</string>
+
+	<!-- Package selection  screen string -->
+	<string name="package_Info_Header_Title">Select Package</string>
+	<string name="package_Upper_Title">Select the package that meets the number of expected players</string>
+	<string name="package_Person_Text_One">10 levels</string>
+	<string name="package_Person_Text_Two">20 levels</string>
+	<string name="package_Person_Text_Three">30 levels</string>
+	<string name="package_Person_Text_Four">40 levels</string>
+	<string name="package_Person_Text_Five">50 levels</string>
+	<string name="unlimited_level">unlimited levels</string>
+	<string name="free_Text">Per player</string>
+	<string name="free">Standard - </string>
+	<string name="per_comp">per competition</string>
+	<string name="max">Maximum</string>
+	<string name="players">players</string>
+	<string name="no_max">No maximum players</string>
+	<string name="selection_Msg">Please select one package.</string>
+	<string name="refresh">Refresh</string>
+	
+	
+	<!-- Network string -->
+	<string name="internet_check">Please check internet connection and try again.</string>
+	<string name="network_fail">Network failure. Error code.</string>
+	<string name="no_data">No data received from server.</string>
+	<string name="unable_connect">Unable to connect server.</string>
+
+</resources>

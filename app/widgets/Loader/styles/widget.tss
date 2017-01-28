@@ -1,0 +1,38 @@
+".container":{
+	backgroundColor: 'transparent',
+	//statusBarStyle: Titanium.UI.iPhone.StatusBar.LIGHT_CONTENT
+}
+"#ActivityView":{
+	backgroundColor: 'black',
+	opacity: 0.9,
+	width: 80,
+	height:80,
+	borderRadius: 10,
+	// top:"80"
+	//layout: 'vertical'
+}
+
+"#activityIndicator[platform=ios]": {
+	top: 18,
+	style: Ti.UI.iPhone.ActivityIndicatorStyle.PLAIN,
+	height: 28,
+	width: 28
+}
+
+"#activityIndicatorAnd": {
+	message: 'Please wait...',
+	location: Ti.UI.Android.PROGRESS_INDICATOR_DIALOG,
+	cancelable: false
+}
+
+"#loadingLabel":{
+	text: 'Please wait...',
+	color: 'white',
+	bottom: 18,
+	color: 'white',
+	font: {
+		fontSize: 11,
+		//fontWeight:'bold'
+	}
+	
+}

@@ -8,5 +8,8 @@
 	"os:ios": {},
 	"os:mobileweb": {},
 	"os:windows": {},
-	"dependencies": {}
+	"dependencies": {
+		"Loader": "1.0",
+		"nl.fokkezb.toast": "1.1.1"
+	}
 }

@@ -1,5 +1,6 @@
-function doClick(e) {
-    alert($.label.text);
+function startup() {
+	var signupScreen = Alloy.createController("SignupScreen");
+	signupScreen.getView().open();
 }
 
-$.index.open();
+startup(); 

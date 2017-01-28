@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="Theme.CustomActionBar" parent="@style/Theme.AppCompat">
+		<!-- Specify an Action Bar style to use -->
+		<item name="android:actionBarStyle">@style/MyActionBar</item>		
+		<item name="android:spinnerItemStyle">@style/SpinnerItem</item>
+		<item name="colorPrimary">#00A16E</item>		
+	</style>
+	    
+    <style name="SpinnerItem" parent="android:Widget.TextView.SpinnerItem">
+        <item name="android:textAppearance">@style/AppearanceSpinnerItem</item>
+    </style>
+
+    <style name="AppearanceSpinnerItem" parent="android:TextAppearance.Widget.TextView.SpinnerItem">
+        <item name="android:textColor">#C7C7CD</item>
+    </style>
+    
+	<!-- Define the ActionBar styles -->
+	<style name="MyActionBar"
+	parent="@style/Widget.AppCompat.ActionBar">
+		<item name="android:background">#00A16E</item>
+		<item name="android:icon">@drawable/menu</item>
+		<!-- Create another style resource to specify the text color -->
+		<item name="android:titleTextStyle">@style/MyActionBarTitleText</item>
+	</style>
+	<!-- Define a text color for the Action Bar title -->
+	<style name="MyActionBarTitleText"
+	parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+		<item name="android:textColor">#ffffff</item>
+	</style>
+</resources>
+

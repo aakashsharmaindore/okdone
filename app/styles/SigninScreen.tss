@@ -1,0 +1,24 @@
+
+".container": {}
+
+".textFieldUICL":{
+	width: "85%",
+	height: "Titanium.UI.SIZE",
+	top: "3%",
+	backgroundColor: "#f2f2f2",
+	borderRadius: "8",
+	borderColor: "#DEE1E8"
+}
+
+"#login_quest_Lbl":{
+	color: '#D3D3D3',
+	font: {
+		fontSize: 16,
+		fontName: "Helvetica LT Light",
+		FontStyle: "Regular",
+		fontType: "Normal"
+	},
+	textAlign : Titanium.UI.TEXT_ALIGNMENT_LEFT,
+	width : "85%",
+	top : 20,
+}

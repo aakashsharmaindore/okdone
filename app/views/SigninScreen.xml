@@ -1,0 +1,18 @@
+<Alloy>
+	<Window class="windowCL" onClick="winClick" id="signInScreen">
+		<ScrollView id="loginView" layout="vertical" >			
+			<!-- <View bottom="10" layout="vertical">				 -->
+				
+				<View class="textFieldUICL" height="Ti.UI.SIZE">
+					<TextField id="emailIDTxtFld" left="5%" right="0" height="Titanium.UI.SIZE" keyboardType="EMAIL" returnKeyType="NEXT" maxLength="254" onReturn="shiftFocus" hasfocus='false' onFocus="txtFldGotFocus" onBlur="txtFldBlur" clearButtonMode="Titanium.UI.INPUT_BUTTONMODE_ONFOCUS" autocapitalization="Titanium.UI.TEXT_AUTOCAPITALIZATION_NONE"></TextField>
+				</View>
+				<View class="textFieldUICL" height="Ti.UI.SIZE">
+					<TextField id="passwordTxtFld" passwordMask="true" left="5%" right="0" height="Titanium.UI.SIZE" returnKeyType="NEXT" maxLength="40" onReturn="shiftFocus" hasfocus='false' onFocus="txtFldGotFocus" onBlur="txtFldBlur"  clearButtonMode="Titanium.UI.INPUT_BUTTONMODE_ONFOCUS" autocapitalization="Titanium.UI.TEXT_AUTOCAPITALIZATION_NONE"></TextField>
+				</View>
+				
+				<Button id="signinBtn" top="10" class="MedButton" titleid="signin" onClick="grantAccessFunc"></Button>				
+				
+			<!-- </View> -->
+		</ScrollView>
+	</Window>
+</Alloy>
