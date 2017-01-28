@@ -1,0 +1,17 @@
+<Alloy>
+	
+		<Window titleid="Window Title" backButtonTitle="Wish List" navTintColor="#fff" backgroundColor="#fff" barColor="#f6f6f6" id="productListWindow">
+			<ScrollView top="0" bottom="80dp" id="productScroll" layout="vertical" width="100%">
+			</ScrollView>
+			<View id="SecondLower" height="40dp" right="0" left="0" backgroundColor="#3385ff" bottom="55dp">
+				<Label id="lowerLabel">Nice to have</Label>
+			</View>
+		<View bottom="10dp" height="40dp" right="10dp" left="10dp">
+				<ImageView height="35dp" image="/images/people.png" left="5"></ImageView>
+				<ImageView height="35dp" image="/images/group.png"></ImageView>
+				<ImageView height="25dp" image="/images/plus.png" right="5"></ImageView>
+
+			</View>
+		</Window>
+	
+</Alloy>

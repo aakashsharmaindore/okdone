@@ -1,0 +1,38 @@
+<Alloy>
+	<NavigationWindow id="navWindow">
+		<Window id="profileScreen" title="Wish List" backgroundColor="#fff">
+			<!-- <RightNavButton>
+				<Button  id="settingBtn" width="40" height="40" backgroundImage="none" image="/images/settings.png"/>				
+			</RightNavButton> -->
+			<View layout="vertical" top="0" bottom="40dp" width="100%">
+				<View top="0" left="0" right="0" height="180dp" layout="vertical">
+					<View id="profilePicView" height="120dp" borderRadius="60dp" top="20dp" width="120dp" borderWidth="1" borderColor="#3385ff">
+						<ImageView id="profilePic" image="/images/profile.jpeg"></ImageView>
+					</View>
+					<Label id="profileName" text="Aiken Rozer" top="10dp"></Label>
+				</View>
+				<View id="customTabbed">
+					<View id="shared" left="0dp" width="50%" height="Ti.UI.FILL" backgroundColor="#3385ff" onClick="checkClick">
+						<Label id="sharedLabel" class="labelsClass" text="Shared" touchEnabled="false" color="#fff"></Label>
+					</View>
+					<View id="privateView" right="0dp" width="50%" height="Ti.UI.FILL" backgroundColor="#fff" onClick="checkClick">
+						<Label id="privateLabel" class="labelsClass" text="Private" touchEnabled="false" color="#3385ff"></Label>
+					</View>
+				</View>
+				<Label id="WishListLabel" text="My Wish Lists" top="10dp"></Label>
+				<View id="buttonView" left="30dp" right="30dp" layout="vertical" height="Ti.UI.SIZE" top="10dp">
+					<Button id="buttonOne" left="0" right="0" backgroundColor="#4d94ff" title="Nice to have" top="2dp" height="30dp" onTouchstart="startEffect" onTouchend="stopEffect" color="#fff" onClick="opneGreedScreen"></Button>
+					<Button id="buttonTwo" left="0" right="0" backgroundColor="#4d94ff" title="Closet to destiny" top="2dp" height="30dp" onTouchstart="startEffect" onTouchend="stopEffect" color="#fff"></Button>
+					<Button id="buttonThree" left="0" right="0" backgroundColor="#4d94ff" title="Registry" top="2dp" height="30dp" onTouchstart="startEffect" onTouchend="stopEffect" color="#fff"></Button>
+					<Button id="buttonFour" left="0" right="0" backgroundColor="#4d94ff" title="My new list" top="2dp" height="30dp" onTouchstart="startEffect" onTouchend="stopEffect" color="#fff"></Button>
+				</View>
+			</View>
+			<View bottom="10dp" height="40dp" right="10dp" left="10dp">
+				<ImageView height="35dp" image="/images/people.png" left="5"></ImageView>
+				<ImageView height="35dp" image="/images/group.png"></ImageView>
+				<ImageView height="25dp" image="/images/plus.png" right="5"></ImageView>
+
+			</View>
+		</Window>
+	</NavigationWindow>
+</Alloy>

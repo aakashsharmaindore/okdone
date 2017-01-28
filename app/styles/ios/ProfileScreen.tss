@@ -1,0 +1,38 @@
+
+".container" : {
+  
+}
+
+"#profileName":
+{
+	font : {
+		fontSize: "12ps",
+	},
+	color : "#000",
+}
+
+
+"#customTabbed":{
+	height : "30dp",
+	left : "30dp", 
+	right : "30dp",
+	borderColor : "#3385ff",
+	borderRadius : "3",
+	borderWidth : "1",
+	top : "20dp"
+}
+
+".labelsClass":
+{
+	font: {
+		fontSize : "12ps",
+	},
+	color : "#000"
+}
+
+"#WishListLabel":{
+	font : {
+		fontSize : "12ps",
+	},
+	color : "#000",
+}

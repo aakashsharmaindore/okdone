@@ -1,11 +1,13 @@
 // Arguments passed into this controller can be accessed via the `$.args` object directly or:
 var args = $.args;
 
-function init() {	
+function init() {
 	$.emailIDTxtFld.hintText = L("emailID");
 	$.passwordTxtFld.hintText = L("password");
-	
+
 	$.signinBtn.title = L("signin");
+	
+	$.signInScreen.title = L("signin");
 
 	//Ti.API.info('height : ' + $.loginView.height + " : " + $.mainView.toImage().height + " : " + Ti.Platform.displayCaps.platformHeight);
 }
@@ -23,6 +25,9 @@ function winClick(e) {
 	}
 }
 
+function backFunc(e){
+	$.signInScreen.close();
+}
 function shiftFocus(e) {
 
 	if (e.source.id == 'emailIDTxtFld') {
@@ -62,8 +67,8 @@ function grantAccessFunc(e) {
 	if ($.emailIDTxtFld.value != null && $.emailIDTxtFld.value != "") {
 		if (Alloy.Globals.checkemail($.emailIDTxtFld.value.trim())) {
 			if ($.passwordTxtFld.value != null && $.passwordTxtFld.value != "") {
-				// var homeScreen = Alloy.createController("homeScreen");
-				// homeScreen.getView().open();
+				var homeScreen = Alloy.createController("ProfileScreen");
+				homeScreen.getView().open();
 				Alloy.Globals.LoadingScreen.close();
 			} else {
 				Alloy.Globals.toast(L("Please_enter_password"));

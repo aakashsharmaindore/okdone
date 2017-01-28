@@ -1,0 +1,14 @@
+
+".container" : {
+  
+}
+
+".fontIS":
+{
+	font : {
+		fontSize : "15ps"
+	},
+	color : "#000"
+}
+
+"#lowerLabel":{color:"#000"}

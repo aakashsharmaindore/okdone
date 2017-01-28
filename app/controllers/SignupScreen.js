@@ -14,6 +14,8 @@ function init() {
 	$.signinBtn.title = L("signin");
 	$.fbLoginBtn.title = L("facebook_connect");
 	
+	$.loginScreen.title = L("app_name");
+
 	//Ti.API.info('height : ' + $.loginView.height + " : " + $.mainView.toImage().height + " : " + Ti.Platform.displayCaps.platformHeight);
 }
 
@@ -67,7 +69,7 @@ function txtFldGotFocus(e) {
 	e.source.hasfocus = true;
 	$.loginView.scrollingEnabled = false;
 	// setTimeout(function() {
-		// $.loginView.scrollingEnabled = false;
+	// $.loginView.scrollingEnabled = false;
 	// }, 200);
 }
 
@@ -91,8 +93,8 @@ function signUpFunc(e) {
 				if (Alloy.Globals.checkemail($.emailIDTxtFld.value.trim())) {
 					if ($.passwordTxtFld.value != null && $.passwordTxtFld.value != "") {
 						if ($.passwordTxtFld.value == $.confirmPswdTxtFld.value) {
-							// var homeScreen = Alloy.createController("homeScreen");
-							// homeScreen.getView().open();
+							var homeScreen = Alloy.createController("ProfileScreen");
+							homeScreen.getView().open();
 							Alloy.Globals.LoadingScreen.close();
 						} else {
 							Alloy.Globals.toast(L("Please_confirm_password"));
@@ -122,6 +124,9 @@ function signUpFunc(e) {
 }
 
 function signInFunc(e) {
-	var signInScreen = Alloy.createController("SigninScreen").getView();
-	signInScreen.open();
+	var signInScreen = Alloy.createController("SigninScreen").getView();	
+	if (OS_IOS)
+		$.loginNavWindow.openWindow(signInScreen);
+	else if (OS_ANDROID)
+		signInScreen.open();
 }

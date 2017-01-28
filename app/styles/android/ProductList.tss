@@ -1,0 +1,9 @@
+".container": {}
+
+"#lowerLabel":
+{
+	font:{
+		fontSize: "15ps"
+	},
+	color : "#000"
+}

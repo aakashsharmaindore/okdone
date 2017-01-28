@@ -1,0 +1,27 @@
+<Alloy>
+	<Window navTintColor="#000" backgroundColor="#fff" barColor="#f6f6f6" id="productListWindow" backButtonTitle=" ">
+		<View top="0" bottom="80dp" id="productDetailView" layout="vertical" width="100%">
+			<Label id="productName" top="30" class="fontIS"></Label>
+			<ImageView id="productImage" top="10" width="60%"></ImageView>
+			<Label id="productPrice" top="10" class="fontIS"></Label>
+			<View right="0" left="0" height="40dp" top="10">
+				<!-- <ImageView id="appicon" height="30" left="20%" image="/images/back.png"></ImageView> -->
+				<ImageView id="back" height="30" image="/images/back.png"></ImageView>
+				<ImageView id="remove" height="30" right="20%" image="/images/remove.png"></ImageView>
+			</View>
+			<View width="50%" height="5dp" borderColor="#bfbfbf" top="10">
+				<View backgroundColor="#008000" id="ratingView" left="0"></View>
+			</View>
+
+		</View>
+		<View id="SecondLower" height="40dp" right="0" left="0" backgroundColor="#3385ff" bottom="55dp">
+			<Label id="lowerLabel">Nice to have</Label>
+		</View>
+		<View bottom="10dp" height="40dp" right="10dp" left="10dp">
+			<ImageView height="35dp" image="/images/people.png" left="5"></ImageView>
+			<ImageView height="35dp" image="/images/group.png"></ImageView>
+			<ImageView height="25dp" image="/images/plus.png" right="5"></ImageView>
+
+		</View>
+	</Window>
+</Alloy>

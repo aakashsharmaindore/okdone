@@ -1,12 +1,13 @@
 <Alloy>
-	<Window class="windowCL" onClick="winClick" id="signInScreen">
+	<Window titleid="signin" onClick="winClick" id="signInScreen" backgroundColor="#FFF">
+		<ActionBar displayHomeAsUp="true" platform="android" onHomeIconItemSelected="backFunc"></ActionBar>
 		<ScrollView id="loginView" layout="vertical" >			
 			<!-- <View bottom="10" layout="vertical">				 -->
 				
-				<View class="textFieldUICL" height="Ti.UI.SIZE">
+				<View class="textFieldUICL" height="40dp">
 					<TextField id="emailIDTxtFld" left="5%" right="0" height="Titanium.UI.SIZE" keyboardType="EMAIL" returnKeyType="NEXT" maxLength="254" onReturn="shiftFocus" hasfocus='false' onFocus="txtFldGotFocus" onBlur="txtFldBlur" clearButtonMode="Titanium.UI.INPUT_BUTTONMODE_ONFOCUS" autocapitalization="Titanium.UI.TEXT_AUTOCAPITALIZATION_NONE"></TextField>
 				</View>
-				<View class="textFieldUICL" height="Ti.UI.SIZE">
+				<View class="textFieldUICL" height="40dp">
 					<TextField id="passwordTxtFld" passwordMask="true" left="5%" right="0" height="Titanium.UI.SIZE" returnKeyType="NEXT" maxLength="40" onReturn="shiftFocus" hasfocus='false' onFocus="txtFldGotFocus" onBlur="txtFldBlur"  clearButtonMode="Titanium.UI.INPUT_BUTTONMODE_ONFOCUS" autocapitalization="Titanium.UI.TEXT_AUTOCAPITALIZATION_NONE"></TextField>
 				</View>
 				
