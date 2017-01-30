@@ -1,5 +1,5 @@
 <Alloy>
-	<Window titleid="signin" onClick="winClick" id="signInScreen" backgroundColor="#FFF">
+	<Window titleid="signin"  backButtonTitle="" navTintColor="#000" onClick="winClick" id="signInScreen" backgroundColor="#FFF">
 		<ActionBar displayHomeAsUp="true" platform="android" onHomeIconItemSelected="backFunc"></ActionBar>
 		<ScrollView id="loginView" layout="vertical" >			
 			<!-- <View bottom="10" layout="vertical">				 -->

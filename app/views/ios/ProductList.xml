@@ -1,6 +1,6 @@
 <Alloy>
 	
-		<Window titleid="Window Title" backButtonTitle="Wish List" navTintColor="#fff" backgroundColor="#fff" barColor="#f6f6f6" id="productListWindow">
+		<Window titleid="Nice to Have" backButtonTitle="" navTintColor="#000" backgroundColor="#fff" barColor="#f6f6f6" id="productListWindow">
 			<ScrollView top="0" bottom="80dp" id="productScroll" layout="vertical" width="100%">
 			</ScrollView>
 			<View id="SecondLower" height="40dp" right="0" left="0" backgroundColor="#3385ff" bottom="55dp">

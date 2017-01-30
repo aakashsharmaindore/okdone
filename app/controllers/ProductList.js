@@ -81,11 +81,11 @@ if (data.length > 0) {
 			top : "10dp",
 			//backgroundColor : "red",
 		});
-		if(OS_IOS)
-		viewone.height="35%";
-		if(OS_ANDROID)
-		viewone.height="150dp";
-		
+		if (OS_IOS)
+			viewone.height = "35%";
+		if (OS_ANDROID)
+			viewone.height = "150dp";
+
 		$.productScroll.add(viewone);
 		for (var k = rowCount; k < data.length; k++) {
 			Ti.API.info('value of k' + k);
@@ -95,6 +95,7 @@ if (data.length > 0) {
 				left : "10dp",
 				top : "10dp",
 				layout : "vertical",
+				id : "productView"
 				//backgroundColor : "pink",
 
 			});
@@ -105,7 +106,8 @@ if (data.length > 0) {
 				color : "#000",
 				font : {
 					fontSiz : "14ps",
-				}
+				},
+				id : "productView"
 			});
 			ViewIs.add(nameOfProduct);
 			productImage = Ti.UI.createImageView({
@@ -113,7 +115,7 @@ if (data.length > 0) {
 				top : "5",
 				height : "80dp",
 				productDetail : data[k],
-
+				id : "productView"
 			});
 			ViewIs.add(productImage);
 			var ratingOne = Ti.UI.createView({
@@ -121,7 +123,8 @@ if (data.length > 0) {
 				top : 10,
 				right : "20%",
 				height : "5",
-				borderColor : "#bfbfbf"
+				borderColor : "#bfbfbf",
+				id : "productView"
 			});
 
 			ViewIs.add(ratingOne);
@@ -130,6 +133,7 @@ if (data.length > 0) {
 				right : "0",
 				height : "5",
 				backgroundColor : "#008000",
+				id : "productView"
 			});
 			ratingOne.add(ratingInside);
 			ratingInside.width = ((20 * data[k].rating) + "%");
@@ -154,10 +158,15 @@ if (data.length > 0) {
 }
 
 $.productScroll.addEventListener('click', function(e) {
-	Ti.API.info('e is now : ' + JSON.stringify(e.source.productDetail));
-	openDetailScreen = Alloy.createController('ProductDetail',e.source.productDetail).getView();
-	if(OS_IOS)
-	Alloy.Globals.navWindow.openWindow(openDetailScreen);
-	if(OS_ANDROID)
-	openDetailScreen.open({animated : false});
+	Ti.API.info('e is now : ' + e.source.id);
+	if (e.source.id != "productView")
+		return;
+	
+	openDetailScreen = Alloy.createController('ProductDetail', e.source.productDetail).getView();
+	if (OS_IOS)
+		Alloy.Globals.navWindow.openWindow(openDetailScreen);
+	if (OS_ANDROID)
+		openDetailScreen.open({
+			animated : false
+		});
 });

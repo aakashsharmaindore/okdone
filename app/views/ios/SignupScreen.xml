@@ -1,6 +1,6 @@
 <Alloy>
 	<NavigationWindow id="loginNavWindow">
-		<Window class="windowCL" onClick="winClick" id="loginScreen">			
+		<Window class="windowCL" backgroundColor="#fff" onClick="winClick" id="loginScreen">			
 			<ScrollView id="loginView" width="100%" layout="vertical">
 				<!-- <View  id="mainView" backgroundColor="red">				 -->
 				<View class="textFieldUICL" height="40dp">

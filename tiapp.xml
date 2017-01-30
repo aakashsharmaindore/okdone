@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ti:app xmlns:ti="http://ti.appcelerator.org">
-    <id>com.pkdiet.giftme</id>
-    <name>okdone</name>
+    <id>co.uk.pkdiet.giftme</id>
+    <name>Gift Me</name>
     <version>1.0</version>
     <publisher>ashishsebastian</publisher>
     <url>undefined</url>
@@ -15,7 +15,7 @@
     <property name="ti.ui.defaultunit" type="string">dp</property>
     <property name="run-on-main-thread" type="bool">true</property>
     <ios>
-        <enable-launch-screen-storyboard>true</enable-launch-screen-storyboard>
+        <enable-launch-screen-storyboard>false</enable-launch-screen-storyboard>
         <use-app-thinning>true</use-app-thinning>
         <plist>
             <dict>
